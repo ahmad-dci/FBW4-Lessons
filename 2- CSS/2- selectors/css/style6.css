@@ -1,0 +1,7 @@
+a[target]{
+    color:red;
+}
+
+input[type=checkbox]:checked{
+    outline: 1px solid red;
+}

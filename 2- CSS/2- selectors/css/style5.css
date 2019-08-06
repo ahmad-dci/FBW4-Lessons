@@ -1,0 +1,10 @@
+td,th{
+    border: 1px black solid;
+    
+}
+table{
+    border-collapse: collapse
+}
+tr:nth-child(even){
+background-color: gray;
+}

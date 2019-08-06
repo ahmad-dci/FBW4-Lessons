@@ -1,0 +1,6 @@
+.someDiv ~ p{
+    color:red;
+}
+.someDiv:nth-child(2) + span{
+    color:blue;
+}

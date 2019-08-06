@@ -1,0 +1,24 @@
+/* div > span{
+    color:red;
+} */
+/* .someClass span{
+    color:red;
+}
+.someClass span span{
+    color:black;
+} */
+/* #div1 p span span{
+    color:blue;
+}
+.someClass p span span{
+    color:red;
+} */
+
+/* select the second element if it had someClass as a class */
+/* .someClass:nth-child(2){
+    color:red;
+} */
+
+p:nth-child(1){
+    color:red;
+}
