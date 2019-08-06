@@ -1,0 +1,14 @@
+ .art1{
+    color: red;
+}
+
+.art1 div{
+    color: yellow;
+}
+span{
+    color: blue;
+}
+
+.art1>span{
+    color: rgb(131, 134, 134)
+}
