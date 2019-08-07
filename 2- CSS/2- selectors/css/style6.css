@@ -2,6 +2,10 @@ a[target]{
     color:red;
 }
 
-input[type=checkbox]:checked{
+.togglebox:checked{
     outline: 1px solid red;
+}
+
+.togglebox:not(:checked) + div{
+    display: none;
 }
