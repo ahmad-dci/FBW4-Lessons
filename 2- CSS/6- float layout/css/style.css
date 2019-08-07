@@ -1,0 +1,26 @@
+.someDiv1 {
+    float: left;
+    background-color: red;
+    height: 200px;
+    width: 70%;
+}
+
+.someDiv2 {
+    float: left;
+    background-color: blue;
+    height: 200px;
+    width: 20%;
+}
+
+.someDiv3 {
+    float: left;
+    background-color: green;
+    height: 200px;
+    width: 10%;
+}
+.subDiv1 {
+    float: left;
+    background-color: aqua;
+    height: 200px;
+    width: 50%;
+}

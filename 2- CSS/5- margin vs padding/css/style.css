@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.someDiv{
+    width:25.33% ;
+    height: 200px;
+    background: red;
+    float: left;
+    margin: 5px;
+}
+
