@@ -6,21 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>float layout library</title>
-    <link rel="stylesheet" href="/css/style3.css">
+    <link rel="stylesheet" href="/css/style3.css"> <!-- library -->
+    <link rel="stylesheet" href="/css/style3-1.css"> <!-- custom css -->
 </head>
 
 <body>
-    <div class=" red col-6 "></div>
-    <div class="col-3 green"></div>
-    <div class=" red col-3 "></div>
-    <hr>
-    <div>
-        <div class=" red col-2 "></div>
-        <div class="col-2 green"></div>
-        <div class=" red col-2 "></div>
-        <div class=" green col-2 "></div>
-        <div class=" red col-2 "></div>
-        <div class=" green col-2 "></div>
+    <div class="col-12 p-3">
+        <div class="border" style="height: 200px;background-color: red;"></div>
+    </div>
+    <div class="col-4 p-3">
+        <div class="border" style="height: 762px;background-color: yellow;"></div>
+    </div>
+    <div class="col-8 " style="height: 762px;">
+        <div class="col-4 p-3">
+            <div class="border" style="height: 100px;background-color: aqua;"></div>
+        </div>
+        <div class="col-8 p-3">
+            <div class="border" style="height: 100px;background-color: lightcoral;"></div>
+        </div>
+        <div class="col-8 p-3">
+            <div class="border" style="height: 150px;background-color: lightcoral;"></div>
+        </div>
+        <div class="col-4 p-3">
+            <div class="border" style="height: 150px;background-color: aqua;"></div>
+        </div>
+        <div class="col-6 p-3">
+            <div class="border" style="height: 500px;background-color: lightcoral;"></div>
+        </div>
+        <div class="col-6 p-3">
+            <div class="border" style="height: 500px;background-color: aqua;"></div>
+        </div>
+    </div>
+    <div class="col-12 p-3">
+        <div class="border" style="height: 100px;background-color: lightcoral;"></div>
     </div>
 </body>
 

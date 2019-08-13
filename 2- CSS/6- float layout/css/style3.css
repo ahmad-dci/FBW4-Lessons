@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .col-1{
     width: 8.33%;
 }
@@ -37,14 +41,11 @@
 [class*="col"] {
     float: left;
 }
-
-
-
-.red{
-    height: 50px;
-    background-color: red;
+.border{
+    border: 2px solid black;
 }
-.green{
-    height: 50px;
-    background-color: green;
+.p-3{
+    padding: 3px;
 }
+
+
