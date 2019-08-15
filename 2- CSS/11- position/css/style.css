@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.gotop{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+}

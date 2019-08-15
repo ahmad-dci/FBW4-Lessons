@@ -56,4 +56,36 @@
     padding: 10px;
 }
 
+@media only screen and (max-width: 600px){
+    [class*="col"] {
+        width:100%;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .col-4, .col-3, .col-2, .col-1, .col-7, .col-8, 
+    .col-5,
+    .col-9, .col-10, .col-11, .col-12
+    {
+        width:100%;
+    }
+    
+}
+@media only screen and (min-width: 1200px){
+    [class*="col"] {
+        
+    }
+
+}
+
+
+/* 600 is for extra small devices smart whatches*/
+/* 600px-768px is for small  devices smart phones*/
+/* 768px-992px is for medium  devices tablets fablet*/
+/* 992px-1200px is for larg  devices laptobs desktops*/
+/* more than 1200px is for extra larg  devices big laptobs larg screens */
+
+
+
+
 
