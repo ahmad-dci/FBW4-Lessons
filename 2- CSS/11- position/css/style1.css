@@ -1,0 +1,22 @@
+.father{
+    background-color: red;
+    height: 200px;
+    width: 500px;
+    position: relative;
+}
+.child{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:75px;
+    left:225px;
+}
+.subchild{
+    width:20px;
+    height:20px;
+    background-color: green;
+    position: absolute;
+    left:15px;
+    top:15px;
+}
