@@ -49,3 +49,30 @@ height: 100vh;*/
     position: absolute;
     overflow: hidden;
 }
+.nav{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    height: 295px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.nav > ul{
+    list-style-type: none;
+    font-size: 35px;
+    
+}
+.nav > ul >li{
+    margin-bottom: 30px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+#toggleCheckbox:checked ~ .nav{
+    display: block;
+}
