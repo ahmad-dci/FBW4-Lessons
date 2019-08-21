@@ -1,0 +1,16 @@
+.someClass{
+    background-color: red;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 150px;
+    transition-property: all ;
+    transition-duration: 2s;
+}
+.someClass:hover{
+    transform: translate(30px,30px);
+    background-color: blue;
+    font-size: 5rem
+}

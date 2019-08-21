@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.front, .back{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    font-size: 4rem;
+    color: wheat;
+    line-height: 250px;
+    text-align: center;
+    backface-visibility: hidden;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.front{
+    background-color: red;
+}
+.back{
+    /* left:250px; */
+    background-color: blue;
+    transform: rotateY(180deg);
+    
+
+} 
+.container:hover > .front{
+    transform: rotateY(180deg);
+}
+.container:hover > .back{
+    transform: rotateY(0);
+}
