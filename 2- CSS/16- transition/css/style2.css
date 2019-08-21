@@ -18,17 +18,18 @@
 }
 .front{
     background-color: red;
+    z-index: 1; 
 }
 .back{
     /* left:250px; */
     background-color: blue;
     transform: rotateY(180deg);
-    
-
-} 
+    /* visibility: hidden; */
+}   
 .container:hover > .front{
     transform: rotateY(180deg);
 }
 .container:hover > .back{
-    transform: rotateY(0);
+    transform: rotateY(0); 
+    
 }
