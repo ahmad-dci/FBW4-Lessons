@@ -1,0 +1,54 @@
+.animatedDiv{
+    background-color: red;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    animation-name: mutlimoves;
+    animation-duration: 5s;
+
+    /* after animation to keep last state you need next line */
+    animation-fill-mode: forwards;
+/* set animation repeat countes , either number or infinite*/
+    animation-iteration-count: infinite;
+}
+
+@keyframes oneMove{
+    from{
+top:0;
+left: 0;
+background-color: red;
+    }
+    to{
+top:200px;
+left:200px ;
+background-color: blue;
+opacity: 0;
+    }
+}
+
+@keyframes mutlimoves{
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:0;
+        left:200px;
+    }
+    50%{
+        top:200px;
+        left:200px;
+    }
+    75%{
+        top:200px;
+        left:0;
+    }
+    100%{
+        top:0;
+        left: 0;
+    }
+
+}
