@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    background-color: aqua;
+    /*controlloing grid columns*/
+    grid-template-columns: 20% auto 20%;
+
+    /*controlling grid rows height*/
+    grid-template-rows: 20%  auto 20% ;
+
+    /* controlling gaps*/
+    grid-column-gap: 10px;
+    /* grid-row-gap: 10px; */
+    grid-row-gap: 5px;
+    padding:10px;
+    height: 500px;
+}
+.item{
+    background-color: azure;
+    border: 1px solid black;
+    text-align: center;
+}
