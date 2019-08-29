@@ -29,7 +29,9 @@
     min-width: 150px;
     
 }
-
+/*thre next terminal command 
+to show your local ip address*/
+/*ip addr show*/
 .nav li:first-child{
     margin-left:10px;
 }
@@ -42,6 +44,53 @@ box-shadow: 1px 1px 10px black;
 .nav li:hover a{
     font-size: 22px;
     }
+
+#togglecheckbox{
+    display: none;
+    }
+    .togglebox label{
+        width:50px;
+        height:50px;
+        border-radius: 5px;
+        background-color: rgba(255, 166, 0, 0.493);
+        position: relative;
+        display: none;
+        margin: 10px;
+    }
+    .togglebox label span{
+        width:40px;
+        left:5px;
+        height: 1px;
+        position: absolute;
+        background-color: black;
+        transition: transform 1s;
+    }
+    .togglebox label span:nth-child(1){
+        
+        top: 10px;
+    }
+    .togglebox label span:nth-child(2){
+        
+        top: 25px;
+    }
+    .togglebox label span:nth-child(3){
+        
+        top: 40px;
+    }
+#togglecheckbox:checked ~ .nav{
+    height: 230px;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(2){
+    display: none;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(1){
+    transform: rotate(45deg);
+    top:25px;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(3){
+    transform: rotate(-45deg);
+    top:25px;
+}
     @media (max-width: 821px){
         .nav li{
             width: 100%;
@@ -53,6 +102,14 @@ box-shadow: 1px 1px 10px black;
             float: left;
         }
         .nav{
-            height: 230px;
+            
+            /* display: none; */
+            height: 0;
+            overflow: hidden;
+            transition: height 1s cubic-bezier(0.23, 1, 0.320, 1) ;
+        }
+        .togglebox label{
+            display: block;
         }
     }
+    
