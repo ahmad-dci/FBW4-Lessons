@@ -5,7 +5,7 @@
     grid-gap: 10px;
 
     /*align element verticaly*/
-    align-items: center;
+    align-content: center;
     /*align element horizontally*/
     justify-content: space-around;
 
@@ -23,7 +23,7 @@
     height: 500px;
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     grid-template-columns: 20%;
 
 
