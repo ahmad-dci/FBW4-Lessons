@@ -106,7 +106,7 @@ box-shadow: 1px 1px 10px black;
     width: 0;
     opacity: 0;
     transition: width 2s, height 2s, opacity 2s;
-
+    position: absolute;
     /* fantasy section */
     border-radius: 0 50px 0 50px;
     overflow: hidden;
@@ -128,6 +128,13 @@ box-shadow: 1px 1px 10px black;
 }
 
 /****************/
+
+/*content after the nav css*/
+.content>p{
+    background-color: red;
+}
+
+/***********************/
     @media (max-width: 821px){
         .nav>li{
             width: 100%;
