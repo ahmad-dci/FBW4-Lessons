@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*main navigation css*/
+.nav{
+    list-style-type: none;
+    background-color: aqua;
+    height: 50px;
+}
+.nav>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+    
+}
+.nav>li{
+    /* display: inline; */
+    margin-right: 10px;
+    float: left;
+    margin-top: 5px;
+    background-color: black;
+    height: 40px;
+    box-shadow: 1px 1px 5px black;
+    min-width: 150px;
+    
+}
+/*thre next terminal command 
+to show your local ip address*/
+/*ip addr show*/
+.nav>li:first-child{
+    margin-left:10px;
+}
+.nav>li:last-child{
+    float: right;
+}
+.nav>li:hover{
+box-shadow: 1px 1px 10px black;
+}
+.nav>li>a:hover{
+    font-size: 22px;
+    }
+/***********************/
+
+/*togglebox css*/
+#togglecheckbox{
+    display: none;
+    }
+    .togglebox label{
+        width:50px;
+        height:50px;
+        border-radius: 5px;
+        background-color: rgba(255, 166, 0, 0.493);
+        position: relative;
+        display: none;
+        margin: 10px;
+    }
+    .togglebox label span{
+        width:40px;
+        left:5px;
+        height: 1px;
+        position: absolute;
+        background-color: black;
+        transition: transform 1s;
+    }
+    .togglebox label span:nth-child(1){
+        
+        top: 10px;
+    }
+    .togglebox label span:nth-child(2){
+        
+        top: 25px;
+    }
+    .togglebox label span:nth-child(3){
+        
+        top: 40px;
+    }
+#togglecheckbox:checked ~ .nav{
+    height: 230px;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(2){
+    display: none;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(1){
+    transform: rotate(45deg);
+    top:25px;
+}
+#togglecheckbox:checked ~ .togglebox label span:nth-child(3){
+    transform: rotate(-45deg);
+    top:25px;
+}
+/******************/
+
+/* subnavigation css */
+
+.nav>li>ul{
+    list-style-type: none;
+    background-color: khaki;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    transition: width 2s, height 2s, opacity 2s;
+
+    /* fantasy section */
+    border-radius: 0 50px 0 50px;
+    overflow: hidden;
+}
+.nav>li>ul>li>a{
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+    color: azure;
+    text-align: center;
+    font-weight: bolder;
+}
+.nav>li:hover > ul{
+    height: 100px;
+    width: 150px;
+    opacity: 1;
+
+}
+
+/****************/
+    @media (max-width: 821px){
+        .nav>li{
+            width: 100%;
+        }
+        .nav>li:first-child{
+            margin-left:0;
+        }
+        .nav>li:last-child{
+            float: left;
+        }
+        .nav{
+            
+            /* display: none; */
+            height: 0;
+            overflow: hidden;
+            transition: height 1s cubic-bezier(0.23, 1, 0.320, 1) ;
+        }
+        .togglebox label{
+            display: block;
+        }
+    }
+    
