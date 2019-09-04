@@ -82,7 +82,7 @@ box-shadow: 1px 1px 10px black;
         top: 40px;
     }
 #togglecheckbox:checked ~ .nav{
-    height: 230px;
+    height: auto;
 }
 #togglecheckbox:checked ~ .togglebox label span:nth-child(2){
     display: none;
@@ -138,6 +138,7 @@ box-shadow: 1px 1px 10px black;
     @media (max-width: 821px){
         .nav>li{
             width: 100%;
+            height: auto;
         }
         .nav>li:first-child{
             margin-left:0;
@@ -155,5 +156,35 @@ box-shadow: 1px 1px 10px black;
         .togglebox label{
             display: block;
         }
+
+        /* responsive subnavigation css */
+
+.nav>li>ul{
+    list-style-type: none;
+    background-color: khaki;
+    height: 0;
+    transition:  height 2s;
+    /* fantasy section */
+    overflow: hidden;
+    display: block;
+    width:100% ;
+    border-radius: 0 0 0 0 ;
+    position: static;
+}
+.nav>li>ul>li>a{
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+    color: azure;
+    text-align: center;
+    font-weight: bolder;
+}
+.nav>li:hover > ul{
+    height: 100px;
+    width: 100%;
+}
+
+/****************/
     }
     
