@@ -1,0 +1,12 @@
+:root{
+    --blacolor:rgb(250, 11, 11);
+    --subcolor:rgba(87, 86, 24, 0.863);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+}
+h3{
+    color: var(--blacolor);
+}
+p{
+    color: var(--subcolor);
+}

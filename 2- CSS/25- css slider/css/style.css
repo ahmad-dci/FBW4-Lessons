@@ -1,0 +1,38 @@
+.slider{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite ;
+    background-size: cover;
+}
+@keyframes slider{
+    0%{
+        background-image: url('../imgs/1.jpg');
+    }
+    2%{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.219), white);
+    }
+    25%{
+        background-image: url('../imgs/2.jpg');
+    }
+    27%{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.219), white);
+    }
+    50%{
+        background-image: url('../imgs/3.jpg');
+    }
+    52%{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.219), white);
+    }
+    75%{
+        background-image: url('../imgs/4.jpg');
+    }
+    77%{
+        background-image: linear-gradient(rgba(255, 0, 0, 0.219), white);
+    }
+    100%{
+        background-image: url('../imgs/1.jpg');
+    }
+}
