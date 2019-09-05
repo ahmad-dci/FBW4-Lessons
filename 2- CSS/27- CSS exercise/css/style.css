@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.row{
+   margin-left: 5rem ; 
+   margin-right: 5rem ; 
+}
+.col-6{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding: 1rem;
+}
+.col-6>img{
+    width: 20vw;
+    position: absolute;
+    transition: all 0.5s;
+    box-shadow: 30px 12px 43px #00000047;
+}
+.col-6>img:nth-child(3){
+    left:6vw;
+    top:15vh;
+}
+.col-6>img:nth-child(2){
+    left:15vw;
+    top:7vh;
+}
+
+.col-6>img:hover{
+    z-index: 3;
+    transform: scale(1.15);
+    outline: 1.5rem solid green;
+    outline-offset: 2rem;
+    box-shadow: 15px 15px 25px #00000047;
+
+}
+.row>h1{
+    font-size: 4rem;
+    color: lightgreen;
+    text-align: center;
+    margin-bottom: 5rem;
+    transition: all 0.3s;
+}
+.col-6>h3{
+    font-size: 1.5rem;
+    color:gray;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+.col-6>p{
+    font-size: 1.5rem;
+    color:gray;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+.row>h1:hover{
+    text-shadow: 15px 15px 25px #00000047;
+    transform: skew(3deg, 3deg)
+
+}
+.col-6>a{
+text-decoration: none;
+border-bottom:1px solid green;
+padding-bottom: 0.5rem;
+color: lightgreen;
+}
+
+@media (max-width:796px){
+    .col-6{
+        width:100%;
+    }
+    .row{
+        margin: 0;
+    }
+    .row>h1{
+        margin-bottom: 0;
+    }
+    .col-6>img{
+        width: 80vw;
+    position: static;
+    margin-left:10vw;
+    transition: all 0.5s;
+    box-shadow: 30px 12px 43px #00000047;
+    }
+    .col-6>img:hover{
+        z-index: 3;
+        transform: scale(1.05);
+        outline: 1.5rem solid green;
+        outline-offset: 0.5rem;
+        box-shadow: 15px 15px 25px #00000047;
+        margin-bottom: 6rem;
+        margin-top: 6rem;
+    
+    }
+}
