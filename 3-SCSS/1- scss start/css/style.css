@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  font-size: 18px;
+  height: 20px;
+  background-color: rgba(194, 31, 31, 0.849);
+}
+
+.container h3 {
+  color: rgba(194, 31, 31, 0.849);
+}
+
+.container h1 {
+  color: rgba(238, 185, 11, 0.89);
+}
+
+.container > p {
+  color: rgba(238, 185, 11, 0.89);
+}
+
+.container > p span {
+  color: rgba(238, 185, 11, 0.89);
+}
+
+.container:hover {
+  background-color: rgba(238, 185, 11, 0.89);
+}
+/*# sourceMappingURL=style.css.map */
