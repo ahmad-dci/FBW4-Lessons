@@ -1,0 +1,18 @@
+%fontstyle{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.container{
+    @extend %fontstyle;
+    background-color: red;
+}
+.container1{
+    @extend %fontstyle;
+    box-shadow: 5px 5px blue;
+    &>p{
+        border: 2px solid black;
+        @extend %fontstyle;
+    }
+}

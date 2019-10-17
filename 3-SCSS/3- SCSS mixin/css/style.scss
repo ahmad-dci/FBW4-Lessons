@@ -1,0 +1,13 @@
+@mixin blabla($size, $color){
+    font-size: $size;
+    color: $color;
+    font-family: 'Courier New';
+
+}
+
+.container{
+    @include blabla(10px, red);
+}
+.container1{
+    @include blabla(20px, blue);
+}

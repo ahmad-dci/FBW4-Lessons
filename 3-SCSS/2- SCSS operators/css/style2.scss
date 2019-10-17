@@ -1,0 +1,7 @@
+article{
+    @for $blabla from 1 to 101{
+        &#{">div:nth-child("+$blabla+")::after"}{
+            content: ''+$blabla;
+        }
+    }
+}

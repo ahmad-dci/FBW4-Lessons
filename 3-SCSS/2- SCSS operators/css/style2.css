@@ -1,0 +1,400 @@
+article > div:nth-child(1)::after {
+  content: "1";
+}
+
+article > div:nth-child(2)::after {
+  content: "2";
+}
+
+article > div:nth-child(3)::after {
+  content: "3";
+}
+
+article > div:nth-child(4)::after {
+  content: "4";
+}
+
+article > div:nth-child(5)::after {
+  content: "5";
+}
+
+article > div:nth-child(6)::after {
+  content: "6";
+}
+
+article > div:nth-child(7)::after {
+  content: "7";
+}
+
+article > div:nth-child(8)::after {
+  content: "8";
+}
+
+article > div:nth-child(9)::after {
+  content: "9";
+}
+
+article > div:nth-child(10)::after {
+  content: "10";
+}
+
+article > div:nth-child(11)::after {
+  content: "11";
+}
+
+article > div:nth-child(12)::after {
+  content: "12";
+}
+
+article > div:nth-child(13)::after {
+  content: "13";
+}
+
+article > div:nth-child(14)::after {
+  content: "14";
+}
+
+article > div:nth-child(15)::after {
+  content: "15";
+}
+
+article > div:nth-child(16)::after {
+  content: "16";
+}
+
+article > div:nth-child(17)::after {
+  content: "17";
+}
+
+article > div:nth-child(18)::after {
+  content: "18";
+}
+
+article > div:nth-child(19)::after {
+  content: "19";
+}
+
+article > div:nth-child(20)::after {
+  content: "20";
+}
+
+article > div:nth-child(21)::after {
+  content: "21";
+}
+
+article > div:nth-child(22)::after {
+  content: "22";
+}
+
+article > div:nth-child(23)::after {
+  content: "23";
+}
+
+article > div:nth-child(24)::after {
+  content: "24";
+}
+
+article > div:nth-child(25)::after {
+  content: "25";
+}
+
+article > div:nth-child(26)::after {
+  content: "26";
+}
+
+article > div:nth-child(27)::after {
+  content: "27";
+}
+
+article > div:nth-child(28)::after {
+  content: "28";
+}
+
+article > div:nth-child(29)::after {
+  content: "29";
+}
+
+article > div:nth-child(30)::after {
+  content: "30";
+}
+
+article > div:nth-child(31)::after {
+  content: "31";
+}
+
+article > div:nth-child(32)::after {
+  content: "32";
+}
+
+article > div:nth-child(33)::after {
+  content: "33";
+}
+
+article > div:nth-child(34)::after {
+  content: "34";
+}
+
+article > div:nth-child(35)::after {
+  content: "35";
+}
+
+article > div:nth-child(36)::after {
+  content: "36";
+}
+
+article > div:nth-child(37)::after {
+  content: "37";
+}
+
+article > div:nth-child(38)::after {
+  content: "38";
+}
+
+article > div:nth-child(39)::after {
+  content: "39";
+}
+
+article > div:nth-child(40)::after {
+  content: "40";
+}
+
+article > div:nth-child(41)::after {
+  content: "41";
+}
+
+article > div:nth-child(42)::after {
+  content: "42";
+}
+
+article > div:nth-child(43)::after {
+  content: "43";
+}
+
+article > div:nth-child(44)::after {
+  content: "44";
+}
+
+article > div:nth-child(45)::after {
+  content: "45";
+}
+
+article > div:nth-child(46)::after {
+  content: "46";
+}
+
+article > div:nth-child(47)::after {
+  content: "47";
+}
+
+article > div:nth-child(48)::after {
+  content: "48";
+}
+
+article > div:nth-child(49)::after {
+  content: "49";
+}
+
+article > div:nth-child(50)::after {
+  content: "50";
+}
+
+article > div:nth-child(51)::after {
+  content: "51";
+}
+
+article > div:nth-child(52)::after {
+  content: "52";
+}
+
+article > div:nth-child(53)::after {
+  content: "53";
+}
+
+article > div:nth-child(54)::after {
+  content: "54";
+}
+
+article > div:nth-child(55)::after {
+  content: "55";
+}
+
+article > div:nth-child(56)::after {
+  content: "56";
+}
+
+article > div:nth-child(57)::after {
+  content: "57";
+}
+
+article > div:nth-child(58)::after {
+  content: "58";
+}
+
+article > div:nth-child(59)::after {
+  content: "59";
+}
+
+article > div:nth-child(60)::after {
+  content: "60";
+}
+
+article > div:nth-child(61)::after {
+  content: "61";
+}
+
+article > div:nth-child(62)::after {
+  content: "62";
+}
+
+article > div:nth-child(63)::after {
+  content: "63";
+}
+
+article > div:nth-child(64)::after {
+  content: "64";
+}
+
+article > div:nth-child(65)::after {
+  content: "65";
+}
+
+article > div:nth-child(66)::after {
+  content: "66";
+}
+
+article > div:nth-child(67)::after {
+  content: "67";
+}
+
+article > div:nth-child(68)::after {
+  content: "68";
+}
+
+article > div:nth-child(69)::after {
+  content: "69";
+}
+
+article > div:nth-child(70)::after {
+  content: "70";
+}
+
+article > div:nth-child(71)::after {
+  content: "71";
+}
+
+article > div:nth-child(72)::after {
+  content: "72";
+}
+
+article > div:nth-child(73)::after {
+  content: "73";
+}
+
+article > div:nth-child(74)::after {
+  content: "74";
+}
+
+article > div:nth-child(75)::after {
+  content: "75";
+}
+
+article > div:nth-child(76)::after {
+  content: "76";
+}
+
+article > div:nth-child(77)::after {
+  content: "77";
+}
+
+article > div:nth-child(78)::after {
+  content: "78";
+}
+
+article > div:nth-child(79)::after {
+  content: "79";
+}
+
+article > div:nth-child(80)::after {
+  content: "80";
+}
+
+article > div:nth-child(81)::after {
+  content: "81";
+}
+
+article > div:nth-child(82)::after {
+  content: "82";
+}
+
+article > div:nth-child(83)::after {
+  content: "83";
+}
+
+article > div:nth-child(84)::after {
+  content: "84";
+}
+
+article > div:nth-child(85)::after {
+  content: "85";
+}
+
+article > div:nth-child(86)::after {
+  content: "86";
+}
+
+article > div:nth-child(87)::after {
+  content: "87";
+}
+
+article > div:nth-child(88)::after {
+  content: "88";
+}
+
+article > div:nth-child(89)::after {
+  content: "89";
+}
+
+article > div:nth-child(90)::after {
+  content: "90";
+}
+
+article > div:nth-child(91)::after {
+  content: "91";
+}
+
+article > div:nth-child(92)::after {
+  content: "92";
+}
+
+article > div:nth-child(93)::after {
+  content: "93";
+}
+
+article > div:nth-child(94)::after {
+  content: "94";
+}
+
+article > div:nth-child(95)::after {
+  content: "95";
+}
+
+article > div:nth-child(96)::after {
+  content: "96";
+}
+
+article > div:nth-child(97)::after {
+  content: "97";
+}
+
+article > div:nth-child(98)::after {
+  content: "98";
+}
+
+article > div:nth-child(99)::after {
+  content: "99";
+}
+
+article > div:nth-child(100)::after {
+  content: "100";
+}
+/*# sourceMappingURL=style2.css.map */

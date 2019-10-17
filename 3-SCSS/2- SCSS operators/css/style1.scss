@@ -1,0 +1,11 @@
+@import 'setting';
+table{
+    width: 100%;
+    height: 100vh;
+    @for $bla from 1 to 11 {
+        #{ "tr:nth-child("$bla")"}{
+            background-color: lighten(rgb(22, 0, 0), $bla*10%)
+            // background-color: darken(black, $bla*10%)
+        }
+    }
+}
