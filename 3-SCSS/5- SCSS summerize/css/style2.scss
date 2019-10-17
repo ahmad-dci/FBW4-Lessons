@@ -1,0 +1,29 @@
+.container{
+    div{
+        background-color: blue;
+        border:2px solid black;
+        height: 10px;
+
+        
+
+
+    }
+    @for $var from 1 to 101{
+        
+        @if $var * 2% >= 100%{
+            #{">div:nth-child("$var")"}{
+                width: 2*100% - ($var * 2%) ;
+                @if $var % 3 == 0 {
+                background-color: red;
+                }
+            }
+        }@else{
+            #{">div:nth-child("$var")"}{
+                width: $var * 2%;
+                @if $var % 3 == 0 {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

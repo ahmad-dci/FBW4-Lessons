@@ -1,0 +1,26 @@
+%borderStyle{
+    border: 2px solid blue;
+    box-shadow: 5px 5px 10px red;
+}
+
+.container{
+    font-size: 50px;
+    @extend %borderStyle;
+    
+
+
+    p{
+        letter-spacing: 10px;
+    }
+    >h3{
+        text-decoration: underline;
+
+        &:hover{
+            text-shadow: 5px 5px 10px blue;
+        }
+    }
+}
+
+.container2{
+    @extend %borderStyle;
+}

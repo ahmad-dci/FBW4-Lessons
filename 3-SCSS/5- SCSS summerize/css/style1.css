@@ -1,0 +1,33 @@
+.btn-lg {
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: rgba(127, 255, 212, 0.466);
+  border: 2px solid green;
+  font-size: 30px;
+  background-color: blue;
+}
+
+.btn-md {
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgba(127, 255, 212, 0.466);
+  border: 2px solid green;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.btn-sm {
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgba(127, 255, 212, 0.466);
+  border: 2px solid green;
+  font-size: 10px;
+  background-color: green;
+}
+/*# sourceMappingURL=style1.css.map */
