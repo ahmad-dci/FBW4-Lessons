@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popup Gallery</title>
+    <link rel="stylesheet" href="/css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+<!-- popup window Modal -->
+
+<div class="modal" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Image1</div>
+                <button type="button" class="close" data-dismiss="modal">x</button>
+            </div>
+            <div class="modal-body">
+                    <img class=" img-responsive img-fluid" src="/imgs/1.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- div.container>div.row>div.card*6>div.card-header+div.card-body text-center+div.card-footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image1</div>
+                <div class="card-body text-center "><a href="#" class="btn" data-toggle="modal" data-target="#mymodal"><img class="imgheight img-responsive img-fluid" src="/imgs/1.jpeg" alt=""></a></div>
+                <div class="card-footer">footer1</div>
+            </div>
+        </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image2</div>
+                <div class="card-body text-center "><img class="imgheight img-responsive img-fluid" src="/imgs/2.jpeg" alt=""></div>
+                <div class="card-footer">footer2</div>
+            </div>
+        </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image3</div>
+                <div class="card-body text-center "><img class="imgheight img-responsive img-fluid" src="/imgs/3.jpeg" alt=""></div>
+                <div class="card-footer">footer3</div>
+            </div>
+        </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image4</div>
+                <div class="card-body text-center "><img class=" imgheight img-responsive img-fluid" src="/imgs/4.jpeg" alt=""></div>
+                <div class="card-footer">footer4</div>
+            </div>
+        </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image5</div>
+                <div class="card-body text-center "><img class="imgheight img-responsive img-fluid" src="/imgs/5.jpeg" alt=""></div>
+                <div class="card-footer">footer5</div>
+            </div>
+        </div>
+            <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Image6</div>
+                <div class="card-body text-center "><img class="imgheight img-responsive img-fluid" src="/imgs/6.jpeg" alt=""></div>
+                <div class="card-footer">footer6</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="/css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="/css/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
