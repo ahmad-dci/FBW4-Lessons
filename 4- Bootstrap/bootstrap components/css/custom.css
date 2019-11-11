@@ -5,3 +5,7 @@
 .imgheight{
     height: 200px;
 }
+
+.ui-sortable-helper{
+    cursor: move;
+}

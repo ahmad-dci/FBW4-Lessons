@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DataTable</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+</head>
+
+<body>
+    <!-- table>tr*10>td*4 -->
+    <table class="display" id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>math</th>
+                <th>English</th>
+                <th>German</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ahmad</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>ali</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Moin</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Alaa</td>
+                <td>4</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Omar</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>oliver</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>loren</td>
+                <td>4</td>
+                <td>4</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Philip</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Stefen</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+    </script>
+</body>
+
+</html>
